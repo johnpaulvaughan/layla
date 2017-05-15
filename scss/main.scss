@@ -1,0 +1,6 @@
+@import "_variables.scss";
+@import "_mixins.scss";
+
+
+// Now import the files that might use these vars/mixins
+@import "style.scss";

@@ -1,0 +1,75 @@
+.ui.secondary.inverted.pointing.menu {
+  border: none; }
+
+body {
+  background: linear-gradient(30deg, #00aced 0, #9423c9 60%, #00aced 100%) !important; }
+  body * {
+    line-height: 1.5em; }
+
+#logo {
+  letter-spacing: 1em;
+  padding-right: 0;
+  padding-left: 1em; }
+
+.masthead.segment {
+  background: linear-gradient(30deg, #00aced 0, #9423c9 60%, #00aced 100%) !important;
+  min-height: 700px;
+  padding: 1em 0em 10em 0em; }
+  .masthead.segment #hero img {
+    width: 2000px;
+    max-width: 90%;
+    height: auto; }
+  .masthead.segment h1.ui.header {
+    margin-top: 3em;
+    margin-bottom: 0em;
+    font-size: 4em;
+    font-weight: normal; }
+  .masthead.segment h2 {
+    font-size: 1.7em;
+    font-weight: normal;
+    color: #05a3de; }
+  .masthead.segment .ui.button {
+    background: none; }
+    .masthead.segment .ui.button i.icon {
+      margin: 0 !important;
+      font-size: 2em; }
+
+.stripe.segment {
+  padding: 8em 0em; }
+  .stripe.segment h2 {
+    font-size: 3em;
+    font-weight: 300; }
+  .stripe.segment h3 {
+    font-size: 2.5em;
+    margin-bottom: 1.5em;
+    font-weight: 300; }
+  .stripe.segment p {
+    font-size: 1.5em; }
+  .stripe.segment.light {
+    position: relative;
+    z-index: 1;
+    background-color: white !important; }
+    .stripe.segment.light:before, .stripe.segment.light:after {
+      background: inherit;
+      content: '';
+      display: block;
+      height: 50%;
+      left: 0;
+      position: absolute;
+      right: 0;
+      z-index: -1;
+      -webkit-backface-visibility: hidden; }
+    .stripe.segment.light:before {
+      top: 0;
+      transform: skewY(1.5deg);
+      transform-origin: 100% 0; }
+    .stripe.segment.light:after {
+      bottom: 0;
+      transform: skewY(-1.5deg);
+      transform-origin: 100%; }
+  .stripe.segment.dark {
+    background-color: #05a3de; }
+    .stripe.segment.dark * {
+      color: white; }
+
+/*# sourceMappingURL=main.css.map */
